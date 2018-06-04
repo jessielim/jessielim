@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="indexcss.css">
+
+	<title>Jessie's projects</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+	  <a class="navbar-brand" href="#">Jessie</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">About</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="project.html">Projects <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+</nav>
+
+
+<div class="row">
+	<div class="column">
+		<img src="images/catch_me.png" style="width: 100%" onclick="openImage();currentSlide(1)" class="hover-shadow cursor"><a href="Catch_me/elusive.html" target="_blank">Catch Me</a>
+	</div>
+	<div class="column">
+		<a href="Tumblr_Guessing/guess_tag.html" target="_blank"><img src="images/Tumblr_guessing_game.png" style="width: 100%" onclick="openImage();currentSlide(2)" class="hover-shadow cursor"></a>
+	</div>
+	<div class="column">
+		<a href="Tumblr_Showcase/tag_showcase.html" target="_blank"><img src="images/Tumblr_tag_showcase.png" style="width: 100%" onclick="openImage();currentSlide(3)" class="hover-shadow cursor"></a>
+	</div>
+	<div class="column">
+		<a href="To_Do_List/to_do_list.html" target="_blank"><img src="images/to_do_list.png" style="width: 100%" onclick="openImage();currentSlide(4)" class="hover-shadow cursor"></a>
+	</div>
+	<div class="column">
+		<a href="KicKacKoe/index.html" target="_blank"><img src="images/kic_kac_koe.png" style="width: 100%" onclick="openImage();currentSlide(5)" class="hover-shadow cursor"></a>
+	</div>
+	<div class="column">
+		<a href="Roman_Numerals/roman_num.html" target="_blank"><img src="images/roman_numerals.png" style="width: 100%" onclick="openImage();currentSlide(6)" class="hover-shadow cursor"></a>
+	</div>					
+</div>
+<!-- <div id="mylightBox" class="modal">
+	<span class="close cursor" onclick="closeLightbox()">&times;</span>>
+		
+	<div id="lightbox-content">
+		<div class="lightbox-image">
+			<div class="imagecount">1 / 6 </div>
+			<img src="images/catch_me.png" style="width: 50%">
+		</div>
+		<div class="lightbox-image">
+			<div class="imagecount">2 / 6 </div>
+			<img src="images/Tumblr_guessing_game.png" style="width: 50%">
+		</div>
+		<div class="lightbox-image">
+			<div class="imagecount">3 / 6 </div>
+			<img src="images/Tumblr_tag_showcase.png" style="width: 50%">
+		</div>
+		<div class="lightbox-image">
+			<div class="imagecount">4 / 6 </div>
+			<img src="images/to_do_list.png" style="width: 50%">
+		</div>
+		<div class="lightbox-image">
+			<div class="imagecount">5 / 6 </div>
+			<img src="images/roman_numerals.png" style="width: 50%">
+		</div>
+		<div class="lightbox-image">
+			<div class="imagecount">6 / 6 </div>
+			<img src="images/kic_kac_koe.png" style="width: 50%">
+		</div>
+
+ -->		<!-- Next/Previous controls -->
+<!-- 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	<div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+	<div class="column">
+		<img class= "demo cursor" src="images/catch_me.png" style="width: 100%" onclick="currentSlide(1)" alt="Catch Me">
+	</div>
+	<div class="column">
+		<img class= "demo cursor" src="images/Tumblr_guessing_game.png" style="width: 100%" onclick="currentSlide(2)" alt="Tumblr Guessing">
+	</div>
+	<div class="column">
+		<img class= "demo cursor" src="images/Tumblr_tag_showcase.png" style="width: 100%" onclick="currentSlide(3)" alt="Tumblr Showcase">
+	</div>
+	<div class="column">
+		<img class= "demo cursor" src="images/to_do_list.png" style="width: 100%" onclick="currentSlide(4)" alt="To Do List">
+	</div>
+	<div class="column">
+		<img class= "demo cursor" src="images/roman_numerals.png" style="width: 100%" onclick="currentSlide(5)" alt="Roman Numeral Converter">
+	</div>
+	<div class="column">
+		<img class= "demo cursor" src="images/kic_kac_koe.png" style="width: 100%" onclick="currentSlide(6)" alt="Kic Kac Koe">
+	</div>
+	</div>
+</div>
+ -->
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
