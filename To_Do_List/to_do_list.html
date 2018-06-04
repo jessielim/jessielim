@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<body>
+	<style>
+		h1 {
+			text-transform: uppercase;
+		}
+		body{
+			font-family: Righteous;
+			margin-left: 22%;
+			background-image: url('cb1f2f22.png')
+		}
+		#container{
+			width: 55vw;
+			height: 50vw;
+			position: relative;
+			text-align: center;
+			background-image: url('67ce422e.png');
+		}
+
+		ul {
+			padding-left:  0;
+		}
+
+		ul li{
+			font-size: 20px;
+			text-align: left;
+			list-style-type: none;
+			position: relative;
+			background-color: #d7c9e5;
+			padding: 8px 12px 8px 12px;
+		
+		}
+
+
+
+		.checked {
+			font-size: 18px;
+			float: left;
+			padding-right: 10px;
+			cursor:pointer;
+		}
+
+		.edit {
+			font-size: 18px;
+			
+			float: right;
+			cursor:pointer;
+		}
+		.close{
+			font-size: 18px;
+			float: right;
+			padding-left: 8px;
+			padding-right: 8px;
+			cursor:pointer;
+		}
+
+		.close:hover{
+			background-color: #f44336;
+ 			color: white
+		}
+	</style>
+	<div id="container">
+		<h1>To Do List</h1>
+		<form id="formList">
+
+			<input id="userInput" type="text" name="">
+			<span id="checked"></span>
+			<button id="addInputToList" style="font-family: Righteous">Add to list </button>
+		</form>
+		<ul id="checkList"></ul>
+		<div id=completed></div>
+	</div>
+	<script src="toDoList.js"></script>
+</body>
+</html>

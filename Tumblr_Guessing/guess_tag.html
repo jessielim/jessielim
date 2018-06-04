@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess That Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+<body>
+	<style type="text/css">
+		#random_img{
+			display: flex;
+			margin-bottom:8px;
+		}
+		
+		h1{
+			text-align: center;
+		}
+		h2 button{
+			font-size: 23px;
+			border-radius: 8px;
+			border: none;
+			background-color: grey;
+			color: white;
+			box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+			text-transform: uppercase;
+			padding: 16px;
+			margin: 8px;
+		}
+		img{
+			margin-bottom: 8px;
+			margin-right: 8px;
+		}
+
+		body{
+			font-family: "Work Sans";
+			background-image: url("beige_woodpattern_atop.png");
+		}
+	</style>
+	<h1>Which tag do all these photos have in common?</h1>
+
+	<ul id="choices"></ul>
+	<ul id="list-data"></ul>
+
+	
+	<h2></h2>
+	<div id ='random_img'>	</div>
+
+	<script src="masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="scripV2.js"></script>
+</body>
+</html>
