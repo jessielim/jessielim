@@ -1,0 +1,24 @@
+body{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	position: fixed;
+ 	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color:#6c3999;
+	color:white;
+	font-family: "Unica One";
+}
+
+#output{
+	font-size: 40px;
+}
+
+#submit_btn {
+	font-family: "Unica One";
+	border: 2px solid black;
+	background-color: black;
+	color:white;
+}
